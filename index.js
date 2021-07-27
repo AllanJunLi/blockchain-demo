@@ -55,3 +55,6 @@ console.log(`Is the chain valid? ${demoChain.isValid()}`);
 console.log("Modify existing transaction");
 demoChain.blocks[2].transactions[1].amount = 23;
 console.log(`Is the chain valid after tampering? ${demoChain.isValid()}`);
+
+console.log(`\n*** The entire chain ****`);
+console.log(JSON.stringify(demoChain, null, 4));
