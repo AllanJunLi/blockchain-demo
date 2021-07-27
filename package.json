@@ -1,0 +1,20 @@
+{
+  "name": "blockchain-demo",
+  "version": "1.0.0",
+  "description": "A demo implementation on how bitcoin blockchain works",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "blockchain",
+    "bitcoin",
+    "crypto"
+  ],
+  "author": "Jun Li",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "elliptic": "^6.5.4"
+  }
+}
